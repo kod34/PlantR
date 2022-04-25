@@ -1,26 +1,59 @@
-PlantR is a tool that generates a custom payload, injects it to an application apk, creates a specific persistence script and starts a metaploit session.  
 
-## Installation  
-./install.sh  
-## Usage  
-usage: plantr.py [-h] [-a APK] [-m MODE]
+<h1 align="center"><b>PlantR</b></h1>
+
+
+<p align="center"> PlantR is a tool that generates a custom payload, injects it to an application apk, creates a specific persistence script and starts a metaploit session.
+    <br> 
+</p>
+
+## 📝 Table of Contents
+
+- [Getting Started](#getting_started)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [Authors](#authors)
+
+
+
+## 🏁 Getting Started <a name = "getting_started"></a>
+
+### Prerequisites
+
+
+```
+Python
+Linux
+```
+
+### Installing
+
+```
+git clone https://github.com/kod34/PlantR
+cd PlantR
+chmod +x install.sh
+./install.sh
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+```
+plantr.py [-h] [-a APK] [-m MODE]
 
 optional arguments:
-  -h, --help            show this help message and exit  
-  
-required named arguments:  
-  -a APK, --apk APK     Original APK  
-  -m MODE, --mode MODE  Injection mode  
-  
-Examples:  
-  
-For quick embedding by msfvenom:  
-&nbsp;&nbsp;&nbsp;&nbsp;python3 plantr.py -a [apk path] -m auto  
-  
-For manual embedding:  
-&nbsp;&nbsp;&nbsp;&nbsp;python3 plantr.py -a [apk path] -m manual  
-  
-## Notes  
-If automatic injection doesn't work, try manual injection. There is no guarantee that either method will work on all apps.  
-## Disclaimer
+  -h, --help            show this help message and exit
+
+required named arguments:
+  -a APK, --apk APK     Original APK
+  -m MODE, --mode MODE  Injection mode
+
+```
+## ⛏️ Built Using <a name = "built_using"></a>
+
+- Python
+
+## ✍️ Authors <a name = "authors"></a>
+
+- [@kod34](https://github.com/kod34)
+
+## ⚠️ Disclaimer
 The sole purpose of writing this program was research, its misuse is the responsibility of the user only.
