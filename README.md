@@ -44,7 +44,7 @@ optional arguments:
 
 required named arguments:
   -a APK, --apk APK     Original APK
-  -m MODE, --mode MODE  Injection mode
+  -m MODE, --mode MODE (auto | manual)  Injection mode
 
 ```
 ## ⛏️ Built Using <a name = "built_using"></a>
